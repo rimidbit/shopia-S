@@ -489,11 +489,11 @@ template {
     margin-bottom: 80px;
 }
 .headers-h2::before{
-    content: url('img/header-decor.png');
+    content: url('../img/header-decor.png');
     margin-right: 80px;
 }
 .headers-h2::after{
-    content: url('img/header-decor.png');
+    content: url('../img/header-decor.png');
     margin-left: 80px;
 }
 .header__top-line{
