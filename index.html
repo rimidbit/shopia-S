@@ -9,8 +9,8 @@
     <meta name="theme-color" content="#4285f4">
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/main.js"></script>
-    </head>
 <body>
+<header class="header">
     <div class="header__top-line">
         <address class="header__top-line__phone">
             <svg class="header__top-line__icon" xmlns="http://www.w3.org/2000/svg">
@@ -47,6 +47,8 @@
             </div>
         </div>
     </div>
+</header>
+
 <div class="slid-wrapper"><!--Это обёртка карусели, она нужна для запуска в скрипте main.js-->
   <div class="slid">
     <img src="images/slaid.jpg" alt="slaid">
@@ -63,20 +65,21 @@
 </div>
 <div class="handpicked">
     <h2 class="headers-h2">HandPicked</h2>
-    <div class="handpicked_block">
+    <div class="handpicked_wrapper">
         <div class="handpicked_left">
             <img src="images/boots.jpg" alt="boots">
-            <img src="images/bracelet.jpg" alt="bracelet">
+            <img class="handpicked_bottom" src="images/bracelet.jpg" alt="bracelet">
         </div>
         <div class="handpicked_center">
             <img src="images/paris-hilton.jpg" alt="paris-hilton">
         </div>
         <div class="handpicked_right">
             <img src="images/lace.jpg" alt="lace">
-            <img src="images/trinket.jpg" alt="trinket">
+            <img class="handpicked_bottom" src="images/trinket.jpg" alt="trinket">
         </div>
     </div>
 </div>
+
 
 
 <section class="collection">
@@ -84,50 +87,66 @@
     <div class="collection-items">
         <div class="collection-item_wrapper">
             <div class="collection-item">
-                <img class="collection-item_img collection-item__label-sale collection-item__label" src="images/1.jpg" alt="">
-                <a class="collection-item__button" href="#">+ADD TO CART</a>
+                <div class="collection-item__img collection-item__label-sale collection-item__label">
+                    <img src="images/1.jpg" alt="">
+                    <a class="collection-item__button" href="#">+ADD TO CART</a>
+                </div>
             </div>
         </div>
         <div class="collection-item_wrapper">
-            <div class="collection-item collection-item__label">
-                <img src="images/2.jpg" alt="">
-                <a class="collection-item__button" href="#">+ADD TO CART</a>
+            <div class="collection-item">
+                <div class="collection-item__img">
+                    <img src="images/2.jpg" alt="">
+                    <a class="collection-item__button" href="#">+ADD TO CART</a>
+                </div>
             </div>
         </div>
         <div class="collection-item_wrapper">
-            <div class="collection-item collection-item__label">
-                <img src="images/3.jpg" alt="">
-                <a class="collection-item__button" href="#">+ADD TO CART</a>
+            <div class="collection-item">
+                <div class="collection-item__img">
+                    <img src="images/3.jpg" alt="">
+                    <a class="collection-item__button" href="#">+ADD TO CART</a>
+                </div>
             </div>
         </div>
         <div class="collection-item_wrapper">
-            <div class="collection-item collection-item__label-big-sale collection-item__label">
-                <img src="images/4.jpg" alt="">
-                <a class="collection-item__button" href="#">+ADD TO CART</a>
+            <div class="collection-item">
+                <div class="collection-item__img collection-item__label collection-item__label-big-sale">
+                    <img src="images/4.jpg" alt="">
+                    <a class="collection-item__button" href="#">+ADD TO CART</a>
+                </div>
             </div>
         </div>
         <div class="collection-item_wrapper">
-            <div class="collection-item collection-item__label-sale collection-item__label">
-                <img src="images/5.jpg" alt="">
-                <a class="collection-item__button" href="#">+ADD TO CART</a>
+            <div class="collection-item">
+                <div class="collection-item__img collection-item__label-sale collection-item__label">
+                    <img src="images/5.jpg" alt="">
+                    <a class="collection-item__button" href="#">+ADD TO CART</a>
+                </div>
             </div>
         </div>
         <div class="collection-item_wrapper">
-            <div class="collection-item collection-item__label">
-                <img src="images/6.jpg" alt="">
-                <a class="collection-item__button" href="#">+ADD TO CART</a>
+            <div class="collection-item">
+                <div class="collection-item__img">
+                    <img src="images/6.jpg" alt="">
+                    <a class="collection-item__button" href="#">+ADD TO CART</a>
+                </div>
             </div>
         </div>
         <div class="collection-item_wrapper">
-            <div class="collection-item collection-item__label">
-                <img src="images/7.jpg" alt="">
-                <a class="collection-item__button" href="#">+ADD TO CART</a>
+            <div class="collection-item">
+                <div class="collection-item__img">
+                    <img src="images/7.jpg" alt="">
+                    <a class="collection-item__button" href="#">+ADD TO CART</a>
+                </div>
             </div>
         </div>
         <div class="collection-item_wrapper">
-            <div class="collection-item collection-item__label-big-sale collection-item__label">
-                <img src="images/8.jpg" alt="">
-                <a class="collection-item__button" href="#">+ADD TO CART</a>
+            <div class="collection-item">
+                <div class="collection-item__img collection-item__label-big-sale collection-item__label">
+                    <img src="images/8.jpg" alt="">
+                    <a class="collection-item__button" href="#">+ADD TO CART</a>
+                </div>
             </div>
         </div>
     </div>
