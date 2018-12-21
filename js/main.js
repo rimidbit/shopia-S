@@ -133,3 +133,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n
 /***/ })
 
 /******/ });
+
+function openMenu() {
+    document.getElementById("nav").classList.toggle("active");
+}
